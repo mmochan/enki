@@ -1,0 +1,10 @@
+[user]
+        name = mmochan
+        email = mmochan@mac.com
+[color]
+        diff = auto
+        branch = auto
+        status = auto
+        interactive = auto
+[core]
+        quotepath = false
