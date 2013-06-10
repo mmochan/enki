@@ -24,7 +24,7 @@ end
 gem 'jquery-rails'
 
 # Use unicorn as the web server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
@@ -61,6 +61,3 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
-group :production do 
-  gem 'unicorn'
-end
