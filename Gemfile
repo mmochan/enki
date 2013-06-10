@@ -61,3 +61,6 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
+group :production, :test do
+  gem 'unicorn'
+end
