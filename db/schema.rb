@@ -70,7 +70,7 @@ ActiveRecord::Schema.define(:version => 20110709024316) do
   end
 
   add_index "posts", ["published_at"], :name => "index_posts_on_published_at"
-  add_index "posts", ["slug"], :name => "altered_posts_slug_unique_idx"
+  add_index "posts", ["slug"], :name => "posts_slug_unique_idx"
 
   create_table "sessions", :force => true do |t|
     t.string   "session_id", :null => false
