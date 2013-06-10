@@ -1,6 +1,6 @@
 # Be sure to restart your server when you modify this file.
 
-if Rails.env.development? || Rails.env.test?
+if Rails.env.development? || Rails.env.test? || Rails.env.production?
   Enki::Application.config.secret_token = SecureRandom.hex(20)
 else
   # Your secret key for verifying the integrity of signed cookies.
