@@ -10,10 +10,10 @@ ActiveSupport::XmlMini::PARSING.delete("yaml")
 # Initialize the rails application
 Enki::Application.initialize!
 
-
+ActionMailer::Base.delivery_method = :smtp
 ActionMailer::Base.smtp_settings = {
-  :user_name => "mmochan@mac.com",
-  :password => "password",
+  :user_name => "app16215404@heroku.com",
+  :password => "tcxg5ymc",
   :domain => "mikemochan.com",
   :address => "smtp.sendgrid.net",
   :port => 587,
