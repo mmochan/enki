@@ -18,6 +18,7 @@ end
 
 platforms :ruby do
   gem 'pg'
+  #gem 'sqlite3'
 end
 
 platforms :jruby do
@@ -65,6 +66,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'pry'
 end
 
 group :production, :test do
