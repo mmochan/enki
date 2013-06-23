@@ -1,6 +1,6 @@
 # Configuration options for your blog - customise to taste
 # This file contains no secret information, so can be stored in source control (unlike database.yml)
-title: Mike Mochan's Blog
+title: Mike Mochan
 url:   http://mikemochan.com
 author:
   name:    Mike Mochan        # For copyright notice and ATOM feeds
